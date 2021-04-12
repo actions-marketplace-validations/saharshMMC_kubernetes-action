@@ -1,5 +1,5 @@
 name: "Kubectl Aws Authenticator with File output"
-description: "Interacts with kubernetes clusters calling kubectl commands. Integrates support for AWS EKS via aws-iam-authenticator and prints output in a file."
+description: "Connects to kubernetes cluster using kubectl commands. Supports AWS EKS via aws-iam-authenticator and prints output to file."
 branding:
   icon: 'anchor'
   color: 'blue'
