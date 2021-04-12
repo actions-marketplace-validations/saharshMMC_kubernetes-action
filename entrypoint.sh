@@ -6,6 +6,5 @@ export KUBECONFIG=kubeconfig
 result="$(kubectl $1)"
 
 status=$?
-echo ::set-output name=result::$result
-echo "$result"
+echo "$result" > output.file
 if [[ $status -eq 0 ]]; then exit 0; else exit 1; fi
